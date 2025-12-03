@@ -3,12 +3,12 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react"
 const projects = [
     {
         id: 1,
-        title: "AI Resume Analyzer",
-        description: "An AI-intergrated resume analyzer using React, TailwindCSS and OpenAI",
-        image: "/projects/ChatGPT.png",
+        title: "Chanel Clone",
+        description: "An Clone of the Chanel Homepage. Using React, TailwindCSS and DaisyUI, I Recreated the Hero layout, Navigation, Fashion and Fine Jewelry Sections.",
+        image: "/projects/Chanel_Clone.png",
         tags: ["React", "TailwindCSS", "OpenAI"],
-        demoUrl: "#",
-        githubUrl: "#",
+        demoUrl: "https://chanel-clone.vercel.app",
+        githubUrl: "https://github.com/OlvarAba/Chanel_Clone",
     },
      {
         id: 1,
@@ -57,12 +57,6 @@ export const ProjectsSection = () => {
                     </div>
 
                     <div className="p-6">
-                        <div>
-                            <h3 className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
-                                Project Coming soon</h3>
-                        </div>
-                    
-
                     <h3 className="text-xl font-semibold mb-1">{project.title}</h3>
                     <p className="text-muted-foreground text-sm mb-4">
                         {project.description}
