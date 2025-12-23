@@ -12,12 +12,12 @@ const projects = [
     },
      {
         id: 1,
-        title: "Spotify Clone",
-        description: "A Spotify Clone using React, TailwindCSS",
-        image: "/projects/spotify_placeholder.png",
+        title: "PokeDex",
+        description: "A responsive Pokédex built with React and React Router. Using API Intergration to fetch data and React hooks to manage dynamic content. It features component architecture for stats, evolution chains and shiny forms.",
+        image: "/projects/Pokedex_Screenshot.png",
         tags: ["React", "TailwindCSS"],
-        demoUrl: "#",
-        githubUrl: "#",
+        demoUrl: "https://poke-dex-olvar.vercel.app",
+        githubUrl: "https://github.com/OlvarAba/PokeDex",
     },
      {
         id: 1,
