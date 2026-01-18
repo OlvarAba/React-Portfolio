@@ -21,12 +21,12 @@ const projects = [
     },
      {
         id: 1,
-        title: "Expense Tracker",
-        description: "An expense tracker dashboard using React, TailwindCSS",
-        image: "/projects/Expense_Placeholder.png",
-        tags: ["React", "TailwindCSS"],
-        demoUrl: "#",
-        githubUrl: "#",
+        title: "Finance Dashboard",
+        description: "A finance dashboard prototype built with Next.js and TailwindCSS. It Features interactive charts, transaction list and budget overview sections, to visualize financial data.",
+        image: "/projects/FD_Screenshot.png",
+        tags: ["Next.JS", "TailwindCSS"],
+        demoUrl: "https://finance-dashboard-zeta-tan.vercel.app",
+        githubUrl: "https://github.com/OlvarAba/FinanceDashboard",
     },
 ]
 
@@ -37,9 +37,10 @@ export const ProjectsSection = () => {
                 Featured <span className="text-primary"> Projects</span></h2>
 
             <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                My projects showcase real-world problem solving using modern React development.
-                From AI-powered tools to polished UI builds, each project demonstrates clean
-                code, strong design fundementals and practical functionality.
+                My projects focus on real-world problem solving through modern React development. 
+                Each build highlights clean, maintainable code, 
+                strong design fundamentals, and practical,
+                 user-focused functionality.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

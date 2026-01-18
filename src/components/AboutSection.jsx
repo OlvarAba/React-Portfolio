@@ -1,4 +1,4 @@
-import { BrainCircuit, Code, User } from "lucide-react";
+import { BrainCircuit, Code, Laptop, User } from "lucide-react";
 
 
 
@@ -90,9 +90,8 @@ export const AboutSection = () => {
                                 <Code className="h-6 w-6 text-primary"/>
                             </div>
                             <div className="text-left">
-                                <h4 className="font-semibold text-xl">Web Development</h4>
-                                <p className="text-muted-foreground">Building responsive scalable interfaces with dynamic UI, 
-                                    event handling, API intergration and reusable components
+                                <h4 className="font-semibold text-xl">Front-End Web Development</h4>
+                                <p className="text-muted-foreground">Building responsive, scalable web interfaces with reusable components, client-side state management, event handling, and API integration. 
                                 </p>
                             </div>
                         </div>
@@ -104,7 +103,19 @@ export const AboutSection = () => {
                             </div>
                             <div className="text-left">
                                 <h4 className="font-semibold text-xl">UI/UX Fundementals</h4>
-                                <p className="text-muted-foreground">Desinging intutive user interfaces and seamless user experiences.
+                                <p className="text-muted-foreground">Designing intuitive, accessible user interfaces with clear navigation, visual hierarchy, and user-centered design principles.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="gradient-border p-6 card-hover">
+                        <div className="flex items-start gap-4">
+                            <div className="p-3 rounded-full bg-primary/10">
+                                <Laptop className="h-6 w-6 text-primary" />
+                            </div>
+                            <div className="text-left">
+                                <h4 className="font-semibold text-xl">Modern Front-End Stack Proficiency</h4>
+                                <p className="text-muted-foreground">Hands on experience with React, Next.js, TailwindCSS and related technologies.
                                 </p>
                             </div>
                         </div>
@@ -115,9 +126,8 @@ export const AboutSection = () => {
                                 <BrainCircuit className="h-6 w-6 text-primary" />
                             </div>
                             <div className="text-left">
-                                <h4 className="font-semibold text-xl">AI Intergration</h4>
-                                <p className="text-muted-foreground">Intergrating AI services into front-end applications to create intelligent
-                                    user interactions and automate workflows.
+                                <h4 className="font-semibold text-xl">Debugging and Problem Solving</h4>
+                                <p className="text-muted-foreground">Experience resolving front-end issues using browser dev tools, build errors, dependency issues, and layout bugs across broswers and devices
                                 </p>
                             </div>
                         </div>
