@@ -1,4 +1,6 @@
 import { BrainCircuit, Code, Laptop, User } from "lucide-react";
+import { Tooltip } from "react-tooltip";
+import "react-tooltip/dist/react-tooltip.css";
 
 
 
@@ -34,6 +36,8 @@ export const AboutSection = () => {
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1024px-React-icon.svg.png?20220125121207"
                             width={100}
                             height={100}
+                            data-tooltip-id="tech-tooltip"
+                            data-tooltip-content="React"
                             />
                             
                             <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 bg-black text-white text-sm rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -45,6 +49,8 @@ export const AboutSection = () => {
                             src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
                             width={100}
                             height={100}
+                            data-tooltip-id="tech-tooltip"
+                            data-tooltip-content="JavaScript"
                             />
                             <img
                             className="hover:scale-120"
@@ -52,6 +58,8 @@ export const AboutSection = () => {
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1024px-Tailwind_CSS_Logo.svg.png?20230715030042"
                             width={100}
                             height={100}
+                            data-tooltip-id="tech-tooltip"
+                            data-tooltip-content="TailwindCSS"
                             />
                             <img
                             className="hover:scale-120"
@@ -59,6 +67,8 @@ export const AboutSection = () => {
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/820px-Vitejs-logo.svg.png?20220412224743"
                             width={100}
                             height={100}
+                            data-tooltip-id="tech-tooltip"
+                            data-tooltip-content="Vite"
                             />
                         </div>
 
@@ -69,6 +79,8 @@ export const AboutSection = () => {
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1200px-Octicons-mark-github.svg.png?20180806170715"
                             width={100}
                             height={100}
+                            data-tooltip-id="tech-tooltip"
+                            data-tooltip-content="GitHub"
                             />
                         </div>
                         
@@ -137,7 +149,11 @@ export const AboutSection = () => {
         </div>
         
 
+        <Tooltip
+          id="tech-tooltip"
+          place="top"
+          className="!bg-black !text-white !px-2 !py-1 !text-sm !rounded"
+        />
     </section>
 
 }
-
